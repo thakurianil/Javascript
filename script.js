@@ -95,3 +95,13 @@ do {
     console.log("Do while")
     i++;
 } while (i<10);
+
+var object ={
+    name: "john",
+    phone: 1000,
+    lastname: "doe",
+};
+
+for (let element in object) {
+    console.log(element +" = " + object[element]);
+}
