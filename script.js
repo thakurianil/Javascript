@@ -159,6 +159,7 @@ for (let i = 1; i < inputFactorial; i++) {
 // Output: 300
 
 let number = [100, 620, 300, 10, 60];
+let number1 = Math.max(100, 15, 10, 0);
 let largestNumber = 0;
 for (let i = 0; i < number.length; i++) {
   if (largestNumber < number[i]) {
@@ -168,7 +169,9 @@ for (let i = 0; i < number.length; i++) {
 console.log(
   "The largest number in an array [" + number + "] is " + largestNumber
 );
-
+console.log(Math.max(...number));
+console.log(number1);
+// console.log("Alternative method, The largest number in an array [" + number1 + "] is " + Math.min(...number1));
 // Count Vowels in a String
 // Input: Hello World
 // Output: 3
@@ -184,6 +187,9 @@ for (let i = 0; i < Vowels.length; i++) {
   }
 }
 console.log("Total count of vowels are: " + vowelsCount);
+// Alternative
+let vowelCount = (inputString.match(/[aeiou]/gi) || []).length;
+console.log(vowelCount);
 
 // Remove duplicates from an Array
 // [1, 2, 2, 3, 4, 5, 6, 6, 7, 7, 7, 9]
@@ -253,7 +259,13 @@ function temperatureF(temperatureC) {
   return (temperatureC * 9) / 5 + 32;
 }
 
-console.log("Temperature Converted of "+temperatureC +" celuius to " +temperatureF(temperatureC) +" fahrenheit");
+console.log(
+  "Temperature Converted of " +
+    temperatureC +
+    " celuius to " +
+    temperatureF(temperatureC) +
+    " fahrenheit"
+);
 
 // Count Occurance of a character in a String
 // String : ‘hello world’
@@ -264,8 +276,66 @@ let OccuranceString = "hello world";
 let character = "l";
 let Occurance = 0;
 for (let i = 0; i < OccuranceString.length; i++) {
-    if (character == OccuranceString[i]){
-        Occurance++;
-    }    
+  if (character == OccuranceString[i]) {
+    Occurance++;
+  }
 }
-console.log("The count occurance of '"+ character+ "' in a string '" + OccuranceString+ "' is " +Occurance);
+console.log(
+  "The count occurance of '" +
+    character +
+    "' in a string '" +
+    OccuranceString +
+    "' is " +
+    Occurance
+);
+
+// Write a function that takes a value as argument. Return the type of the value.
+function myFunction1(a, b) {
+  if (a == b && a === b) {
+    return 1;
+  } else {
+    return false;
+  }
+}
+
+console.log(myFunction1("3", "3"));
+
+// Write a function that takes a string (a) and a number (n) as argument. Return the nth character of 'a'.
+function myFunction2(a, n) {
+  return a[n - 1];
+}
+
+console.log(myFunction2("hello", 1));
+
+// Write a function that takes a string (a) as argument. Remove the first 3 characters of a. Return the result
+
+function myFunction3(a) {
+  return a.substring(3, a.length);
+}
+console.log(myFunction3("hello world"));
+
+// Write a function that takes a string (a) as argument. Get the first 3 characters of a. Return the result
+
+function myFunction4(a) {
+  return a.slice(0, 3);
+}
+
+console.log(myFunction4("world"));
+
+// Write a function that takes 6 values (a,b,c,d,e,f) as arguments. Sum a and b. Then substract by c. Then multiply by d and divide by e. Finally raise to the power of f and return the result. Hint: mind the order.
+
+function myFunction5(a, b, c, d, e, f) {
+    
+  return (Math.pow(((((a + b) - c) * d) / e), f));
+}
+console.log(myFunction5(6,2,1,4,2,3));
+
+
+// Write a function that takes two strings (a and b) as arguments. If a contains b, append b to the beginning of a. If not, append it to the end. Return the concatenation
+
+function myFunction6( a , b){
+
+    // return a.contain(b);
+}
+
+console.log(myFunction6("cheese", "cake"))
