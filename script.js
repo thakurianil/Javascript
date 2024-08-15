@@ -334,8 +334,14 @@ console.log(myFunction5(6,2,1,4,2,3));
 // Write a function that takes two strings (a and b) as arguments. If a contains b, append b to the beginning of a. If not, append it to the end. Return the concatenation
 
 function myFunction6( a , b){
-
-    // return a.contain(b);
+    if (a.includes(b)) {
+        return b + a;
+    } else {
+        return a + b;
+    }
 }
 
-console.log(myFunction6("cheese", "cake"))
+console.log(myFunction6("cheese", "cake"));
+console.log(myFunction6("lips", "s"));
+
+
