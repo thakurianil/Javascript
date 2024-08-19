@@ -357,3 +357,8 @@ console.log(Math.ceil(answer*10));
 
 console.log(typeof(answer), answer);
 
+const value = 3456;
+console.log(typeof(value), value);
+
+let num = "1";
+console.log(typeof(num), num);
