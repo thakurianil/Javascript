@@ -361,4 +361,4 @@ const value = 3456;
 console.log(typeof(value), value);
 
 let num = "1";
-console.log(typeof(num), num);
+console.log(typeof(num), "= "+num);
