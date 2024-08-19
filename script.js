@@ -354,3 +354,6 @@ const answer = Math.random();
 // console.log(answer*100);
 
 console.log(Math.ceil(answer*10));
+
+console.log(typeof(answer), answer);
+
