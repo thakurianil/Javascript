@@ -343,5 +343,14 @@ function myFunction6( a , b){
 
 console.log(myFunction6("cheese", "cake"));
 console.log(myFunction6("lips", "s"));
+ let a = 1;
+ let b = 1;
+
+console.log(a === b);
 
 
+const answer = Math.random();
+
+// console.log(answer*100);
+
+console.log(Math.ceil(answer*10));
