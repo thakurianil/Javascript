@@ -376,3 +376,22 @@ let u1 = user.fname;
 user.fname = "Anil1";
 console.log(user.fname);
 
+
+const number12 = "100.088";
+console.log(typeof(number12), number12);
+
+const val = +number12;
+console.log(typeof(val), val);
+
+console.log(parseInt(number12), isNaN(number12));
+console.log(parseInt(number12), isNaN(val));
+
+//string
+
+//Escape character
+
+const str  =  "Hello";
+console.log(typeof(str),str);
+
+
+
