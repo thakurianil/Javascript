@@ -368,4 +368,11 @@ const user = {
     num: 34,
 };
 
+console.log(typeof(user), user.num);
+console.log(typeof(user), user.fname);
 console.log(typeof(user), user);
+
+let u1 = user.fname;
+user.fname = "Anil1";
+console.log(user.fname);
+
