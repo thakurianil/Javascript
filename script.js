@@ -362,3 +362,10 @@ console.log(typeof(value), value);
 
 let num = "1";
 console.log(typeof(num), "= "+num);
+
+const user = {
+    fname: "Anil",
+    num: 34,
+};
+
+console.log(typeof(user), user);
