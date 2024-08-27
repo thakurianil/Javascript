@@ -393,5 +393,34 @@ console.log(parseInt(number12), isNaN(val));
 const str  =  "Hello i'm \"Anil Khand\" how can i help you sir?";
 console.log(typeof(str),str);
 
+console.log(str.toUpperCase());
+console.log(str.toLowerCase());
+
+const str1 = str.replace("Anil", "done");
+console.log(str1);
+
+const valuex = 2200;
+const value1 = (valuex * 0.4709);
+const value2 = valuex - value1;
+
+console.log(value1);
+
+console.log(value2);
+console.log(value1*2.125);
+console.log(value2*1.891);
+console.log((value1*2.125)-valuex);
+console.log((value2*1.891)-valuex);
+
+
+
+
+
+
+
+
+
+
+
+
 
 
