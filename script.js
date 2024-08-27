@@ -390,7 +390,7 @@ console.log(parseInt(number12), isNaN(val));
 
 //Escape character
 
-const str  =  "Hello";
+const str  =  "Hello i'm \"Anil Khand\" how can i help you sir?";
 console.log(typeof(str),str);
 
 
