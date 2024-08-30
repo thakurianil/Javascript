@@ -1,106 +1,106 @@
-// console.log("hey");
-// // alert
+console.log("hey");
+// alert
 
-// //assigning a variable
-// var name = "John";
-// counter = 0;
+//assigning a variable
+var name = "John";
+counter = 0;
 
-// truthStatement = true;
+truthStatement = true;
 
-// console.log(truthStatement);
+console.log(truthStatement);
 
-// var object = {
-//     name: "anil",
-//     phone: 10000,
-//     isMember: true
-// }
+var object = {
+    name: "anil",
+    phone: 10000,
+    isMember: true
+}
 
-// console.log(object.name);
+console.log(object.name);
 
-// Array_number =[ 100, 200, 300];
+Array_number =[ 100, 200, 300];
 
-// console.log(typeof Array_number)
-// console.log(Array_number [0]);
+console.log(typeof Array_number)
+console.log(Array_number [0]);
 
-//  sum =( a, b) =>{
-//     return a +b;
-// }
+ sum =( a, b) =>{
+    return a +b;
+}
 
-// console.log(sum (1,2));
+console.log(sum (1,2));
 
-// today = new Date();
+today = new Date();
 
-// console.log(today);
+console.log(today);
 
-// console.log(typeof today);
+console.log(typeof today);
 
-// console.log(typeof Array_number);
+console.log(typeof Array_number);
 
-// console.log(typeof sum);
+console.log(typeof sum);
 
-// console.log(Math.PI);
+console.log(Math.PI);
 
-// const grade = 49;
+const grade = 49;
 
-// if (grade >= 80){
-//     console.log("A grade")
-// } else if(grade >= 60){
-//     console.log("B grade")
-// } else if(grade >= 40){
-//     console.log("C grade")
-// }else{
-//     console.log("F grade")
-// }
+if (grade >= 80){
+    console.log("A grade")
+} else if(grade >= 60){
+    console.log("B grade")
+} else if(grade >= 40){
+    console.log("C grade")
+}else{
+    console.log("F grade")
+}
 
-// var ternary = 9;
-// var temporaryVariable = 0;
+var ternary = 9;
+var temporaryVariable = 0;
 
-// temporaryVariable =  ternary == 10 ? ternary : ternary ==9? 90 : 100;
+temporaryVariable =  ternary == 10 ? ternary : ternary ==9? 90 : 100;
 
-// console.log(temporaryVariable);
+console.log(temporaryVariable);
 
-// a = 9;
-// b = 5;
+a = 9;
+b = 5;
 
-// y = a < 10 ? a * 4 : b==5 ? b * 3 : 0;
+y = a < 10 ? a * 4 : b==5 ? b * 3 : 0;
 
-// console.log(y);
+console.log(y);
 
-// let variable = 10;
+let variable = 10;
 
-// try{
-//     let variable = 10;
+try{
+    let variable = 10;
 
-// }
-// catch (error){
-//     console.log(error());
-// }
+}
+catch (error){
+    console.log(error());
+}
 
-// for (let i = 0; i < 5; i++) {
-//     console.log(i);
-// }
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+}
 
-// i =0 ;
-// while (i<10) {
-//     console.log(i);
-//     i++;
-// }
+i =0 ;
+while (i<10) {
+    console.log(i);
+    i++;
+}
 
-// i=8;
-// do {
-//     console.log("Do while")
-//     i++;
-// } while (i<10);
+i=8;
+do {
+    console.log("Do while")
+    i++;
+} while (i<10);
 
-// var object ={
-//     name: "john",
-//     phone: 1000,
-//     lastname: "doe",
-// };
+var object ={
+    name: "john",
+    phone: 1000,
+    lastname: "doe",
+};
 
-// for (let element in object) {
-//     console.log(element +" = " + object[element]);
-// }
+for (let element in object) {
+    console.log(element +" = " + object[element]);
+}
 
 // Reverse a String
 // Input a String and display its reverse
