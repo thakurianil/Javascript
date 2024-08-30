@@ -353,74 +353,97 @@ const answer = Math.random();
 
 // console.log(answer*100);
 
-console.log(Math.ceil(answer*10));
+// console.log(Math.ceil(answer*10));
 
-console.log(typeof(answer), answer);
+// console.log(typeof(answer), answer);
 
-const value = 3456;
-console.log(typeof(value), value);
+// const value = 3456;
+// console.log(typeof(value), value);
 
-let num = "1";
-console.log(typeof(num), "= "+num);
+// let num = "1";
+// console.log(typeof(num), "= "+num);
 
-const user = {
-    fname: "Anil",
-    num: 34,
-};
+// const user = {
+//     fname: "Anil",
+//     num: 34,
+// };
 
-console.log(typeof(user), user.num);
-console.log(typeof(user), user.fname);
-console.log(typeof(user), user);
+// console.log(typeof(user), user.num);
+// console.log(typeof(user), user.fname);
+// console.log(typeof(user), user);
 
-let u1 = user.fname;
-user.fname = "Anil1";
-console.log(user.fname);
+// let u1 = user.fname;
+// user.fname = "Anil1";
+// console.log(user.fname);
 
 
-const number12 = "100.088";
-console.log(typeof(number12), number12);
+// const number12 = "100.088";
+// console.log(typeof(number12), number12);
 
-const val = +number12;
-console.log(typeof(val), val);
+// const val = +number12;
+// console.log(typeof(val), val);
 
-console.log(parseInt(number12), isNaN(number12));
-console.log(parseInt(number12), isNaN(val));
+// console.log(parseInt(number12), isNaN(number12));
+// console.log(parseInt(number12), isNaN(val));
 
 //string
 
 //Escape character
 
-const str  =  "Hello i'm \"Anil Khand\" how can i help you sir?";
-console.log(typeof(str),str);
+// const str  =  "Hello i'm \"Anil Khand\" how can i help you sir?";
+// console.log(typeof(str),str);
 
-console.log(str.toUpperCase());
-console.log(str.toLowerCase());
+// console.log(str.toUpperCase());
+// console.log(str.toLowerCase());
 
-const str1 = str.replace("Anil", "done");
-console.log(str1);
-
-const valuex = 2200;
-const value1 = (valuex * 0.4709);
-const value2 = valuex - value1;
-
-console.log(value1);
-
-console.log(value2);
-console.log(value1*2.125);
-console.log(value2*1.891);
-console.log((value1*2.125)-valuex);
-console.log((value2*1.891)-valuex);
+// const str1 = str.replace("Anil", "done");
+// console.log(str1);
 
 
+// let obj1 = [
+// {
+//     name: "Charlie",
+//     age : 20,
+// },
+// {
+//     name: "Adam",
+//     age : 20,
+// },
+// {
+//     name: "Harry",
+//     age : 20,
+// }
+// ];
+
+// obj1.sort((a,b)=> {
+//     if(a.age == b.age){
+//         // if ( a.name < b.name){
+//         //     return -1;
+//         // }
+//         // else{
+//         //     return 0;
+//         // }
+//         return a.name.localeCompare(b.name);
+//     }
+//     return a.age - b.age;
+// });
+
+// console.log(obj1);
 
 
+// let array1 = [1,2,3,4,5]
+// console.log(array1.filter((item) => {
+//     return item > 2;
+// }));
 
 
+// console.log(obj1.filter((item)=>{
+//     return (item.name == "Adam");
+// }));
 
-
-
-
-
-
-
-
+// fetch('movie.json')
+//     .then(response => response.json())
+//     .then(data => {
+//         console.log(data.movies[2].year);
+//     })
+//     .catch(error => console.error('Error:', error));

@@ -1,0 +1,68 @@
+{ "movies" : [
+    {
+        "name": "R",
+        "year": 2011,
+        "genre": ["Comedy","action","horror"],
+        "Director": {
+            "fname": "harry",
+            "lastname": "Hello"
+        },
+        "rating": 5.1,
+        "actors": [{"ram":{
+            "fname": "ram",
+            "lastname": "Hello"
+        }},{
+            "shyam":{
+                "fname": "ram",
+            "lastname": "Hello"
+            }
+        }],
+        "availableOn": 2010
+
+    },
+    {
+        "name": "Rocky",
+        "year": 2011,
+        "genre": ["Comedy","action","horror"],
+        "Director": {
+            "fname": "harry",
+            "lastname": "Hello"
+        },
+        "rating": 5.1,
+        "actors": [{"ram":{
+            "fname": "ram",
+            "lastname": "Hello"
+        }},{
+            "shyam":{
+                "fname": "ram",
+            "lastname": "Hello"
+            }
+        }],
+        "availableOn": 2010
+
+    },
+    {
+        "name": "Rambo",
+        "year": 2011,
+        "genre": ["Comedy","action","horror"],
+        "Director": {
+            "fname": "harry",
+            "lastname": "Hello"
+        },
+        "rating": 5.1,
+        "actors": [{"ram":{
+            "fname": "ram",
+            "lastname": "Hello"
+        }},{
+            "shyam":{
+                "fname": "ram",
+            "lastname": "Hello"
+            }
+        }],
+        "availableOn": 2010
+
+    }
+    
+    ]
+
+}
