@@ -22,11 +22,11 @@ Array_number =[ 100, 200, 300];
 console.log(typeof Array_number)
 console.log(Array_number [0]);
 
- sum =( a, b) =>{
-    return a +b;
-}
+// sum =( a, b) =>{
+//     return a +b;
+// }
 
-console.log(sum (1,2));
+// console.log(sum (1,2));
 
 today = new Date();
 
@@ -36,7 +36,7 @@ console.log(typeof today);
 
 console.log(typeof Array_number);
 
-console.log(typeof sum);
+// console.log(typeof sum);
 
 console.log(Math.PI);
 
@@ -59,12 +59,12 @@ temporaryVariable =  ternary == 10 ? ternary : ternary ==9? 90 : 100;
 
 console.log(temporaryVariable);
 
-a = 9;
-b = 5;
+// a = 9;
+// b = 5;
 
-y = a < 10 ? a * 4 : b==5 ? b * 3 : 0;
+// y = a < 10 ? a * 4 : b==5 ? b * 3 : 0;
 
-console.log(y);
+// console.log(y);
 
 let variable = 10;
 
